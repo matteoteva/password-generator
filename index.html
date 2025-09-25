@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="hero">
+            <div id="all-text">
+                <h1>Generate a <span id="cta"><br>random password</span></h1>
+                <p id = "punchline">Never use an insecure password again.</p>
+                <button id="gen-btn" onclick="getPasswords()">Generate Passwords</button>
+                <div id="password-btns">
+                    <p class="password-section" id="first-password-el" onclick="copyToClipboardF()"></p>
+                    <p class="password-section" id="second-password-el" onclick="copyToClipboardS()"></p>
+                </div>
+                <p id="copy-msg">Click on Password to Copy!</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
